@@ -1,6 +1,6 @@
-# FULL_ADDER_SUBTRACTOR
+# FULL ADDER SUBTRACTOR
 
-Implementation-of-Full-Adder-and-Full-subtractor-circuit
+Implementation of Full Adder and Full subtractor circuit
 
 **AIM:**
 
@@ -8,9 +8,9 @@ To design a Full Adder and Full Subtractor circuit and verify its truth table in
 
 **Equipments Required:**
 
-Hardware – PCs, Cyclone II , USB flasher
+Hardware  PCs, Cyclone II , USB flasher
 
-Software – Quartus prime
+Software  Quartus prime
 
 **Full Adder and Full Subtractor**
 
@@ -46,8 +46,8 @@ Write the detailed procedure here
 
 **Program:**
 
-## Full_adder
-module fulladd_top(a,b,cin,sum,carry);
+## Full adder
+module fulladd top(a,b,cin,sum,carry);
 
 input a,b,cin;
 
@@ -69,7 +69,7 @@ or(carry,w2,w3,w4);
 
 endmodule 
 
-## Full_subtractor
+## Full subtractor
 module fullsub_top(a,b,Bin,BO,DIFF);
 
 input a,b,Bin;
